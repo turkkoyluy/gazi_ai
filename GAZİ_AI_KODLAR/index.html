@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gençlik Platformu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo-container">
+            <div class="logo">biz</div>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/gencliksporbak/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/gencliksporbak/?locale=br_FR"><i class="fab fa-facebook"></i></a>
+                <a href="https://x.com/gencliksporbak"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#" class="nav-item" id="genciz">GENCİZ</a></li>
+            <li><a href="#" class="nav-item">SPORCUYUZ</a></li>
+            <li>
+                <a href="#" class="nav-item" id="yurtIslemleri">YURT İŞLEMLERİ</a>
+                <ul class="accordion-content">
+                    <li><a href="#">Yurt İzin Alma</a></li>
+                    <li><a href="#">Nakil İşlemleri</a></li>
+                    <li><a href="#">Yurt Kayıt Silme</a></li>
+                    <li><a href="#">Yurt Ödeme</a></li>
+                    <li><a href="#">Çamaşırhane Randevusu Oluşturma</a></li>
+                    <li><a href="camasirhane-doluluk.html">Çamaşırhane Doluluk</a></li>
+                </ul>
+            </li>
+            <li><a href="#" class="nav-item">KREDİ/BURS</a></li>
+            <li><a href="#" class="nav-item">FIRSATLAR</a></li>
+            <li><a href="#" class="nav-item">EĞİTİM</a></li>
+            <li><a href="#" class="nav-item">İNDİR</a></li>
+        </ul>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Ara...">
+            <button class="search-button">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Chatbot Tanıtım Paneli -->
+    <div class="chatbot-intro-panel">
+        <div class="chatbot-character">
+            <img src="https://i.hizliresim.com/kpbahmu.jpeg" alt="Chatbot Karakter">
+        </div>
+        <div class="intro-content">
+            <h2>Merhaba, Ben Senin Dijital Asistanın GenceBoy!</h2>
+            <p>Gençlik platformunda sana yardımcı olmak için buradayım.Senin için yapabileceklerimi aşağıdan görebilirsin</p>
+            <button class="discover-btn">
+                Hadi Beni Keşfet!
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Chatbot Tanıtım Sayfası -->
+<div class="chatbot-intro-page" style="display: none;">
+    <div class="intro-page-content">
+        <div class="intro-header">
+            <h2>Merhaba! Ben Senin Dijital Asistanın GenceBoy!</h2>
+            <button class="close-intro-btn">&times;</button>
+        </div>
+        <div class="capabilities-list">
+            <h3>Senin için yapabileceklerim:</h3>
+            <ul>
+                <li>
+                    <i class="fas fa-home"></i>
+                    Yurt izni alma konusunda yardımcı olabilirim
+                </li>
+                <li>
+                    <i class="fas fa-calendar-alt"></i>
+                    İlgi alanlarına uygun etkinlikleri önerebilirim
+                </li>
+                <li>
+                    <i class="fas fa-info-circle"></i>
+                    Gençlik ve Spor Bakanlığıyla alakalı merak ettiklerini yanıtlayabilirim
+                </li>
+                <li>
+                    <i class="fas fa-credit-card"></i>
+                    BizKart ile alakalı merak ettiklerini yanıtlayabilirim
+                </li>
+                <li>
+                    <i class="fas fa-tshirt"></i>
+                    Çamaşırhane randevusunu nasıl alabileceğini anlatabilirim
+                </li>
+                <li>
+                    <i class="fas fa-gavel"></i>
+                    Yurtta uyman gereken kurallardan bahsedebilirim
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <!-- Kategori Kartları -->
+    <div class="category-container">
+        <div class="category-card oyun">
+            <div class="card-content">
+                <img src="https://i.hizliresim.com/1uut4ak.png" alt="Oyun">
+            </div>
+        </div>
+        
+        <div class="category-card tiyatro">
+            <div class="card-content">
+                <img src="https://i.hizliresim.com/q5tblgg.png" alt="Tiyatro">
+            </div>
+        </div>
+        
+        <div class="category-card egitim">
+            <div class="card-content">
+                <img src="https://i.hizliresim.com/a636ede.png" alt="Eğitim">
+            </div>
+        </div>
+        
+        <div class="category-card kariyer">
+            <div class="card-content">
+                <img src="https://i.hizliresim.com/kb6wymp.png" alt="Kariyer">
+            </div>
+        </div>
+        
+        <div class="category-card testler">
+            <div class="card-content">
+                <img src="https://i.hizliresim.com/rdu37mb.png" alt="Testler">
+            </div>
+        </div>
+        
+        <div class="category-card firsat">
+            <div class="card-content">
+                <img src="https://i.hizliresim.com/ss781gp.png" alt="Fırsat">
+            </div>
+        </div>
+        
+        <div class="category-card anket">
+            <div class="card-content">
+                <img src="https://i.hizliresim.com/cwwmerq.png" alt="Anket">
+            </div>
+        </div>
+    </div>
+
+    <!-- Projeler Bölümü -->
+    <section class="projects-section">
+        <h2 class="projects-title">PROJELER</h2>
+        <div class="projects-container">
+            <button class="scroll-btn left-btn"><i class="fas fa-chevron-left"></i></button>
+            <div class="projects-buttons">
+                <button class="project-btn">
+                    <img src="https://i.hizliresim.com/ekd2njv.png" alt="Logo 1" class="project-logo">
+                </button>
+                <button class="project-btn"> <img src="https://i.hizliresim.com/nbsidyf.png" alt="Logo 1" class="project-logo"></button>
+                <button class="project-btn"> <img src="https://i.hizliresim.com/bitrfuh.png" alt="Logo 1" class="project-logo"></button>
+                <button class="project-btn"> <img src="https://i.hizliresim.com/ok6ihls.png" alt="Logo 1" class="project-logo"></button>
+            </div>
+            <button class="scroll-btn right-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <div class="blog-section">
+        <h2 class="section-title">Bizim Blog</h2>
+        <div class="blog-container">
+            <div class="blog-card">
+                <div class="blog-image">
+                    <img src="https://picsum.photos/400/250" alt="Blog Post 1">
+                </div>
+                <div class="blog-content">
+                    <div class="blog-category">Gençlik</div>
+                    <h3>2024 Gençlik Projeleri Başvuruları Başladı</h3>
+                    <p>Gençlik ve Spor Bakanlığı tarafından desteklenen 2024 yılı proje başvuruları başladı...</p>
+                    <div class="blog-footer">
+                        <span class="date">12 Mart 2024</span>
+                        <a href="#" class="read-more">Devamını Oku <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-image">
+                    <img src="https://picsum.photos/400/251" alt="Blog Post 2">
+                </div>
+                <div class="blog-content">
+                    <div class="blog-category">Spor</div>
+                    <h3>Üniversiteler Arası Spor Şenlikleri Yaklaşıyor</h3>
+                    <p>Bu yıl 15.si düzenlenecek olan Üniversiteler Arası Spor Şenlikleri için hazırlıklar...</p>
+                    <div class="blog-footer">
+                        <span class="date">10 Mart 2024</span>
+                        <a href="#" class="read-more">Devamını Oku <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-image">
+                    <img src="https://picsum.photos/400/252" alt="Blog Post 3">
+                </div>
+                <div class="blog-content">
+                    <div class="blog-category">Eğitim</div>
+                    <h3>Yeni Burs İmkanları Açıklandı</h3>
+                    <p>2024-2025 eğitim yılı için yeni burs imkanları ve başvuru şartları açıklandı...</p>
+                    <div class="blog-footer">
+                        <span class="date">8 Mart 2024</span>
+                        <a href="#" class="read-more">Devamını Oku <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-image">
+                    <img src="https://picsum.photos/400/253" alt="Blog Post 4">
+                </div>
+                <div class="blog-content">
+                    <div class="blog-category">Duyuru</div>
+                    <h3>UNİDES Başvuru Sonuçları Açıklandı</h3>
+                    <p>2024 yılı Üniversite Destek Programı (UNİDES) başvuru sonuçları açıklandı. Sonuçları e-Devlet üzerinden...</p>
+                    <div class="blog-footer">
+                        <span class="date">15 Mart 2024</span>
+                        <a href="#" class="read-more">Devamını Oku <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="logo">biz</div>
+        <div class="footer-links">
+            <div class="footer-column">
+                <h4>GENEL</h4>
+                <ul>
+                    <li><a href="#">Sıkça Sorulan Sorular</a></li>
+                    <li><a href="#">Reklamlar Hakkında</a></li>
+                    <li><a href="#">Duyurular</a></li>
+                    <li><a href="#">BİZ İndir</a></li>
+                    <li><a href="#">Anketler</a></li>
+                </ul>
+            </div> <br></br>
+            <div class="footer-column">
+                <h4>BİLGİ</h4>
+                <ul>
+                    <li><a href="#">KVKK</a></li>
+                    <li><a href="#">Bilgi Güvenliği</a></li>
+                    <li><a href="#">Bilgi Edinme</a></li>
+                    <li><a href="#">Açık Rıza Beyanı</a></li>
+                </ul>
+            </div> <br></br>
+            <div class="footer-column">
+                <h4>İLETİŞİM</h4>
+                <ul>
+                    <li>Örnek Mahallesi Oruç Reis Caddesi No:13</li>
+                    <li>Altındağ / Ankara</li>
+                    <li>444 0 472</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script>
+document.querySelector('.discover-btn').addEventListener('click', function() {
+    document.querySelector('.chatbot-intro-page').style.display = 'flex';
+});
+
+// Kapatma butonuna tıklandığında tanıtım sayfasını kapat
+document.querySelector('.close-intro-btn').addEventListener('click', function() {
+    document.querySelector('.chatbot-intro-page').style.display = 'none';
+});
+
+// Sayfa dışına tıklandığında tanıtım sayfasını kapat
+document.querySelector('.chatbot-intro-page').addEventListener('click', function(e) {
+    if (e.target === this) {
+        this.style.display = 'none';
+    }
+});
+    </script>
+    <script src="script.js" defer></script>
+
+    <script src="chatbot.js"></script>
+</body>
+</html> 

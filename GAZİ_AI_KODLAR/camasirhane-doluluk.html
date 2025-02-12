@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Çamaşırhane Doluluk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Şirin Hatun Yurdu Çamaşırhanesi</h2>
+        <h3>Çamaşır Makineleri</h3>
+    </header>
+    <header>Saat:09.00</header>
+    <main>
+        <div class="laundry-status">
+            <div class="machine full" data-machine-id="1">
+                <h2>Makine 1</h2>
+            </div>
+            <div class="machine empty">
+                <h2>Makine 2</h2>
+            </div>
+            <div class="machine full">
+                <h2>Makine 3</h2>
+            </div>
+            <div class="machine empty">
+                <h2>Makine 4</h2>
+            </div>
+            <div class="machine full">
+                <h2>Makine 5</h2>
+            </div>
+            <div class="machine full">
+                <h2>Makine 6</h2>
+            </div>
+            <div class="machine empty">
+                <h2>Makine 7</h2>
+            </div>
+            <div class="machine full">
+                <h2>Makine 8</h2>
+            </div>
+        </div>
+    </main>
+    <main>
+        <header>Saat:10.00</header>
+        <div class="laundry-status">
+            <div class="machine empty">
+                <h2>Makine 1</h2>
+            </div>
+            <div class="machine empty">
+                <h2>Makine 2</h2>
+            </div>
+            <div class="machine full">
+                <h2>Makine 3</h2>
+            </div>
+            <div class="machine full">
+                <h2>Makine 4</h2>
+            </div>
+            <div class="machine full">
+                <h2>Makine 5</h2>
+            </div>
+            <div class="machine full">
+                <h2>Makine 6</h2>
+            </div>
+            <div class="machine empty">
+                <h2>Makine 7</h2>
+            </div>
+            <div class="machine empty">
+                <h2>Makine 8</h2>
+            </div>
+        </div>
+    </main>
+    <main>
+        <header>Saat:11.00</header>
+        <div class="laundry-status">
+            <div class="machine empty">
+                <h2>Makine 1</h2>
+            </div>
+            <div class="machine empty">
+                <h2>Makine 2</h2>
+            </div>
+            <div class="machine empty">
+                <h2>Makine 3</h2>
+            </div>
+            <div class="machine full">
+                <h2>Makine 4</h2>
+            </div>
+            <div class="machine full">
+                <h2>Makine 5</h2>
+            </div>
+            <div class="machine full">
+                <h2>Makine 6</h2>
+            </div>
+            <div class="machine full">
+                <h2>Makine 7</h2>
+            </div>
+            <div class="machine empty">
+                <h2>Makine 8</h2>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal -->
+    <div id="reservationModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Randevu Oluştur</h2>
+            <form id="reservationForm">
+                <label for="name">İsim Soyisim:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="room">Oda Numarası:</label>
+                <input type="text" id="room" name="room" required>
+                <button type="submit">Kaydet</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
